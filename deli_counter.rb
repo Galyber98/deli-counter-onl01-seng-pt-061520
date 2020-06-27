@@ -4,7 +4,7 @@ def line(array)
   if array.length == 0 
     puts "The line is currently empty."
   else 
-    constant  = "The line is currently: "
+    constant  = "The line is currently:"
     array.each_with_index do |name, i|
       constant << " #{i + 1}. #{name}"
    end
@@ -22,6 +22,6 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   else 
     remove = line.shift 
-    puts "Currently serving #{remove}"
+    puts "Currently serving #{remove}."
   end
 end
