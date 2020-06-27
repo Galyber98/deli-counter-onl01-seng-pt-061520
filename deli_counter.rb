@@ -6,6 +6,7 @@ def line(array)
   else 
     constant  = "The line is currently: "
     array.each_with_index do |name, i|
+      constant << 
    end
    puts constant
   end 
